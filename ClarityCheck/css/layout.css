@@ -1,0 +1,59 @@
+/* ~~~~~~~~~~~~~~ LOGIN & SIGNUP PAGE (CSS styling taken from https://www.w3schools.com/howto/howto_css_login_form.asp) ~~~~~~~~~~~~~~ */
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+  
+  /* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+  
+  /* Set a style for all buttons */
+.default-button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+  
+  /* Add a hover effect for buttons */
+.default-button:hover {
+  opacity: 0.8;
+}
+  
+  /* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+
+
+.round-button-top-right {
+  position: fixed;
+  top: 20px; /* Adjust this value to change the vertical position */
+  right: 20px; /* Adjust this value to change the horizontal position */
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+  /* Style for button hover effect (optional) */
+.round-button-top-right:hover {
+  background-color: darkred;
+}
